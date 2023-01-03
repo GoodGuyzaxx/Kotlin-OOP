@@ -7,7 +7,7 @@ fun main() {
     val time = Time()
     val erik = PersonErik()
     erik.firstName = "Erik"
-    erik.middleName = "Putra"
+    erik.middleName = "Putri"
     erik.lastName = "Raharjo"
 
     val dewa = PersonErik()
