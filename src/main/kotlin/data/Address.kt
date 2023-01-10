@@ -15,4 +15,8 @@ class Address {
             : this (paramStreet, paramCity){
                 country = paramCountry
             }
+
+    fun getFullAdd(): String{
+        return ("$street $city $country")
+    }
 }
