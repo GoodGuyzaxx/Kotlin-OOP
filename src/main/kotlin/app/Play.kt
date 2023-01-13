@@ -12,19 +12,7 @@ fun greatTing(name: String= ""): String {
     }
 }
 
-fun loopInfi(value: Int): Int{
-    var result = 1;
-    for (i in value downTo 1){
-        result *=i
-    }
-    return result
-}
 fun main() {
-    val mia = Onlyfans()
-    mia.nameArtis = "Mia Makalof"
-    mia.yearDebutr = 2007
-
-    println(mia.nameArtis)
 
     val luna = Onlyfansnum2("Luna Mer","",2020)
     luna.nameArtisParam
@@ -34,5 +22,9 @@ fun main() {
 
     greatTing("dewa")
 
-    println(loopInfi(10000))
+    val mia = Onlyfans()
+    mia.namaArtis = "mia love"
+    mia.artisDebut = 2001
+    mia.sayOnlyArtis()
+    mia.sayOnlyArtis("hi")
 }
