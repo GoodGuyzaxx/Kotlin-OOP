@@ -14,8 +14,8 @@ open class Manager(name: String) : Employee(name){
 
 class SuperManager(name: String) : Manager(name){
     // Error
-//    override fun sayHello(name: String) {
-//        println("Hello $name, My name is Super Manager ${this.name}")
+//    overri de fun sayHello(name: String) {
+//        println("Hello $name, My name is Super Manager ${this.n ame}")
 //    }
 }
 
