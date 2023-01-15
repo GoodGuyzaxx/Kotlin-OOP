@@ -6,7 +6,7 @@ class Car(pramBrand: String, pramName: String, pramYears: Int) {
         println("Nama Produk ini $pramBrand")
     }
 
-    constructor(pramBrand: String, pramName: String) : this(pramBrand,pramName, 2022){
+    constructor(pramBrand: String, pramName: String) : this(pramBrand,pramName,2002){
         println("Secondary Constructor 1")
     }
 
