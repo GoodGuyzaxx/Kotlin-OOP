@@ -7,5 +7,4 @@ fun main() {
     human.greetIng("Jaki")
     human.go()
     human.move()
-
 }
