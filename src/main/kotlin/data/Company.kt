@@ -3,7 +3,7 @@ package data
 class Company (val name: String, val tahun: Int){
     constructor(name: String) : this(name, 0)
 
-    //MEmbuat Fungsi untuk mengubah hash code menjadi INT
+    //Membuat Fungsi untuk mengubah hash code menjadi INT
     override fun hashCode(): Int {
         return name.hashCode()
     }
